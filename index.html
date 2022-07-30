@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manialink Editor</title>
+  <script src="GlobalSettings.js"></script>
+  <script src="Elements/ManiaElement.js"></script>
+  <script src="Elements/ManiaQuad.js"></script>
+  <script src="fabric.min.js"></script>
+  <script defer src="app.js"></script>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Manialink editor, simple to use</h1>
+<p id="note">Note: Multiselection doesn't work properly</p>
+
+<div class="center">
+  <canvas id="canvas" width="960" height="540"></canvas>
+</div>
+
+<div id="info">
+  <p id="infoId"></p>
+  <p id="infoWidth"></p>
+  <p id="infoHeight"></p>
+  <p id="infoPositionX"></p>
+  <p id="infoPositionY"></p>
+</div>
+
+<div id="buttons">
+  <button onclick="newQuad()">Quad</button>
+</div>
+
+<div id="listOfElements">
+  <h2 style="font-size: 24px; font-weight: normal; padding-block: 0.5rem;">Layers</h2>
+  <div id="placeElm">
+
+  </div>
+</div>
+
+<div id="code">
+  <textarea width="600" height="500" id="currentMania">
+
+  </textarea>
+</div>
+
+</body>
+</html>

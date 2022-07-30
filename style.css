@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap');
+
+html {
+    background-color: #2d2d2d;
+    color: ghostwhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding-bottom: 12rem;
+}
+
+#canvas {
+    border: white 2px solid;
+    border-radius: 5px;
+}
+
+#code {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    padding: 1rem;
+    background-color: #444444;
+    border-radius: 5px;
+}
+
+#info {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    padding: 1rem;
+    background-color: #444444;
+    border-radius: 5px;
+}
+
+#listOfElements {
+    position: absolute;
+    right: 10px;
+    top: 190px;
+    padding: 1rem 1.5rem;
+    height: 20rem;
+    width: 12rem;
+    background-color: #444444;
+    border-radius: 5px;
+}
+
+#buttons {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    padding: 1rem;
+    background-color: #444444;
+    border-radius: 5px;
+}
+
+#placeElm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+h1 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+#note {
+    position: absolute;
+    top: 60px;
+    right: 190px;
+}
+
+
+button {
+    border: none;
+    border-radius: 8px;
+    background-color: #2d2d2d;
+    color: snow;
+    padding: 1rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f1f1f;
+}
+
+textarea {
+    height: 200px;
+    width: 800px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
